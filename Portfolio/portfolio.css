@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    height: 120vh;
+}
+.aboutUsAndUserImage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 90%;
+    margin: 20px auto;
+}
+.profileImage{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 132, 24);
+    flex-shrink: 0;
+}
+.personName{
+    color: rgb(255, 132, 24);
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+    width: 65%;
+}
+.aboutUs{
+    color: #e1dcd7;
+    text-align: left;
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.readMoreBtn{
+    background-color: rgb(255, 132, 24);
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.qualificationSection{
+    text-align: center;
+    text-decoration: underline;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+td {
+    color: #1e3a8a;
+    background-color: #f1f5f9;
+}
+ 
+
+tr:nth-child(odd) td {
+    background-color: #dbeafe;
+}
+
+tr:hover td {
+    background-color: #bfdbfe;
+}
+.technicalSkillSection{
+    text-align: center;
+    text-decoration: underline;
+}
+.leftSkills{
+    background-color: pink;
+    width: 50%;
+    float: left;
+    height: 150px;
+}
+.rightSkills{
+    background-color: brown;
+    width: 50%;
+    float: right;
+    height: 150px;
+}
+.skillsSection{
+    margin: 10px;
+}
+.skillHeading{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 25px;
+}
