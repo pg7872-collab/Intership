@@ -1,0 +1,267 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #d34b4b;
+    padding: 40px 12%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0 15px;
+}
+
+/* 1. WhatsApp Navbar */
+.whatsapp {
+    background: #202020;
+    color: rgb(61, 17, 207);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 2px;
+}
+
+.whatsapp-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.wa-icon {
+    background: #3b2718;
+    color: #d6ff31;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.whatsapp small {
+    color: #a11717;
+}
+
+.whatsapp button {
+    background: #303030;
+    color: white;
+    border: 1px solid #ee30307a;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* 2. LinkedIn Navbar */
+.linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 3px solid #139823;
+}
+
+.linkedin-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4a5d70;
+}
+
+.search {
+    border: 1px solid #070505;
+    border-radius: 20px;
+    padding: 9px 14px;
+    background: #c3ccda;
+    width: 180px;
+}
+
+.linkedin-links {
+    display: flex;
+    gap: 22px;
+    text-align: center;
+}
+
+.linkedin-links a {
+    color: #0b0505;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.linkedin-links a:hover {
+    color: #6183a4;
+}
+
+/* 3. BookMyShow Navbar */
+.bms-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 5px;
+}
+
+.bms-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.bms-logo span {
+    color: #1ee9a5;
+}
+
+.bms-search {
+    flex: 1;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ac2e2e;
+    border-radius: 3px;
+}
+
+.city {
+    font-size: 13px;
+}
+
+.sign-in {
+    background: #c7e91e;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bms-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background: #f5f5f5;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.bms-links a {
+    color: #444;
+    text-decoration: none;
+}
+
+/* 4. Wisdom Sprouts Navbar */
+.wisdom {
+    background: #1a6a63;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.wisdom-logo {
+    color: #236b67;
+    font-weight: bold;
+    font-size: 17px;
+    min-width: 95px;
+}
+
+.wisdom-logo small {
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.wisdom-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.wisdom-links a {
+    text-decoration: none;
+    color: #58cf54;
+    font-size: 12px;
+}
+
+.wisdom-links a:first-child {
+    color: #ff7043;
+}
+
+.contact {
+    background: #ff7043;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+/* 5. Instagram Footer */
+.instagram-footer {
+    background: #4c7f8d;
+    color: #a72b2b;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.footer-links a {
+    color: #aaa;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: rgb(29, 13, 13);
+}
+
+.instagram-footer p {
+    font-size: 11px;
+}
+
+/* Responsive design for phones and tablets */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 5%;
+    }
+
+    .whatsapp {
+        flex-wrap: wrap;
+    }
+
+    .linkedin,
+    .bms-top,
+    .wisdom {
+        flex-wrap: wrap;
+    }
+
+    .linkedin-links {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .wisdom-links {
+        gap: 12px;
+    }
+
+    .bms-links {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .search {
+        width: 140px;
+    }
+}
