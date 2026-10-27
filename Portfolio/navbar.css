@@ -1,0 +1,83 @@
+.mainNavbar{
+    background-color: rgb(34, 184, 64);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.leftNav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    object-fit: cover;
+}
+.name111{
+    display: inline-block;
+    font-size: 20px;
+}
+.rightNav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+.navList{
+    padding: 40px 16px;
+}
+
+.navItem:link{
+    color: rgb(154, 186, 24);
+    text-decoration: none;
+    padding-bottom: 40px;
+}
+.navItem:hover{
+    color: rgb(90, 26, 107);
+    border-bottom: 5px solid bisque;
+}
+.navItem:active{
+    color: rgb(6, 226, 116);
+}
+.navItem:visited{
+    color: white;
+}
+.activePage:link{
+    color: red;
+}
+
+@media screen and (min-width:301px) and (max-width:700px){
+    .mainNavbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 12px;
+    }
+    .rightNav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .mainNavbar{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .leftNav{
+        justify-content: center;
+    }
+    .rightNav{
+        flex-direction: column;
+    }
+    .logo{
+        margin:10px
+    }
+    .navList{
+    padding: 10px 20px;
+
+    }
+}
