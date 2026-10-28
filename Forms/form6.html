@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Championship Registration</title>
+    <link rel="stylesheet" href="form6.css">
+</head>
+<body>
+
+    <div class="form">
+        <h1>School Championship Registration Form</h1>
+
+        <form>
+            <label>School name:<span>*</span></label>
+            <input type="text" required>
+
+            <label>Schooler name:<span>*</span></label>
+            <div class="name">
+                <input type="text" placeholder="First" required>
+                <input type="text" placeholder="Last" required>
+            </div>
+
+            <label>Parent name:<span>*</span></label>
+            <div class="name">
+                <input type="text" placeholder="First" required>
+                <input type="text" placeholder="Last" required>
+            </div>
+
+            <label>Parent phone:<span>*</span></label>
+            <input type="tel" placeholder="### ### ####" required>
+
+            <label>Parent email:<span>*</span></label>
+            <input type="email" required>
+
+            <label>Preferred sport:<span>*</span></label>
+            <select required>
+                <option value="">Select sport</option>
+                <option>Cricket</option>
+                <option>Football</option>
+                <option>Basketball</option>
+                <option>Badminton</option>
+                <option>Volleyball</option>
+                <option>Athletics</option>
+            </select>
+
+            <div class="verify">
+                <label>Verification<span>*</span></label>
+                <input type="checkbox" required>
+                I'm not a robot
+            </div>
+
+            <button type="submit">▶ Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

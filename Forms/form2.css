@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1fa;
+}
+
+.main-container {
+    display: flex;
+    width: 95%;
+    min-height: 460px;
+    margin: 18px auto;
+    background: #17232e;
+    color: white;
+    border-top: 3px solid #b58b68;
+}
+
+.left-side {
+    width: 50%;
+    padding: 40px 20px;
+    text-align: center;
+    background: #10191f;
+    border-right: 1px solid #40505c;
+}
+
+.instagram-logo {
+    width: 45px;
+    height: 45px;
+    border: 4px solid #d96c9d;
+    border-radius: 13px;
+    margin-bottom: 25px;
+}
+
+.logo-circle {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #d96c9d;
+    border-radius: 50%;
+    margin: 7px auto;
+}
+
+.logo-dot {
+    display: none;
+}
+
+.left-side h1 {
+    font-family: Georgia, serif;
+    font-size: 23px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+.left-side h1 span {
+    color: #e7a36d;
+}
+
+.photo-collage {
+    width: 220px;
+    height: 185px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.photo {
+    position: absolute;
+    width: 75px;
+    height: 125px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border: 2px solid #52616a;
+}
+
+.photo-one {
+    left: 15px;
+    top: 30px;
+    transform: rotate(-10deg);
+    background: #52786f;
+}
+
+.photo-two {
+    left: 50px;
+    top: 8px;
+    transform: rotate(-5deg);
+    background: #b58b68;
+    z-index: 2;
+}
+
+.photo-three {
+    left: 100px;
+    top: 30px;
+    transform: rotate(10deg);
+    background: #416b80;
+}
+
+.photo-four {
+    left: 65px;
+    top: 38px;
+    background: #c48d75;
+    z-index: 3;
+}
+
+.photo-five {
+    left: 140px;
+    top: 55px;
+    width: 55px;
+    height: 85px;
+    background: #839c72;
+}
+
+.heart, .smile {
+    position: absolute;
+    z-index: 4;
+    font-size: 23px;
+}
+
+.heart {
+    left: 0;
+    top: 90px;
+}
+
+.smile {
+    right: 0;
+    top: 45px;
+}
+
+.app-store {
+    display: none;
+}
+
+.right-side {
+    width: 50%;
+    padding: 35px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #f0d9c6;
+}
+
+.login-form input {
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 12px;
+    background: #1c2b36;
+    color: white;
+    border: 1px solid #52616a;
+    border-radius: 8px;
+}
+
+.login-form input::placeholder {
+    color: #aab8c2;
+}
+
+button {
+    cursor: pointer;
+}
+
+.login-button {
+    height: 38px;
+    margin-top: 10px;
+    background: #b58b68;
+    color: #17232e;
+    border: none;
+    border-radius: 20px;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 22px 0 45px;
+    color: #e4d7cc;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.facebook-button, .create-button {
+    height: 38px;
+    margin-bottom: 9px;
+    border-radius: 20px;
+    background: transparent;
+    color: #e4d7cc;
+    border: 1px solid #52616a;
+}
+
+.facebook-button span {
+    color: #e7a36d;
+    font-weight: bold;
+}
+
+.create-button {
+    color: #e7a36d;
+    border-color: #b58b68;
+}
+
+@media (max-width: 650px) {
+    .main-container {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+    }
+}
