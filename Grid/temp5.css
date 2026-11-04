@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.gallery {
+    width: 520px;
+    height: 210px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+    background: white;
+}
+
+.box {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+}
+
+/* First image */
+.img1 {
+    width: 200px;
+    height: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUcj9pnsfO0ArxdK4Em4jLm6fll4CwfrxwYfuu9zaOdw&s=10");
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    top: 0;
+    left: 0;
+}
+
+/* Center text area */
+.img2 {
+    width: 220px;
+    height: 160px;
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    top: 0;
+    left: 145px;
+    clip-path: polygon(35% 0, 100% 0, 0 100%, 0 40%);
+    font-size: 8px;
+}
+
+/* Right top image */
+.img3 {
+    width: 200px;
+    height: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmRsnzwsE7cSuA4cta2S_G7uyPQxuiKmnsH-1Zya29g&s=10");
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    top: 0;
+    right: 0;
+}
+
+/* Bottom left image */
+.img4 {
+    width: 340px;
+    height: 170px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR77AV4kDF3YQwkuGvRdFvRw7pJqH7oFtcNVFFczHuxDg&s=10");
+    clip-path: polygon(0 40%, 40% 0, 100% 100%, 0 100%);
+    bottom: 0;
+    left: 0;
+}
+
+/* Bottom right image */
+.img5 {
+    width: 300px;
+    height: 210px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g10-qoqE8YjheXWxUCIuqvnO37KHyL3AErK7-Hlr7g&s=10");
+    clip-path: polygon(50% 0, 100% 55%, 100% 100%, 0 100%, 0 50%);
+    bottom: 0;
+    right: 0;
+}

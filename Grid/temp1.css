@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    height: 115px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.top img {
+    height: 115px;
+}
+
+.orange {
+    height: 220px;
+}
+
+.papaya {
+    height: 190px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.watermelon {
+    height: 350px;
+}
+
+.pineapple {
+    height: 190px;
+}

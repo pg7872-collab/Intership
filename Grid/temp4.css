@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.gallery {
+    width: 430px;
+    height: 350px;
+    background-color: goldenrod;
+    margin: 80px auto;
+    position: relative;
+}
+
+.gallery img {
+    width: 145px;
+    height: 135px;
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+    object-fit: cover;
+    position: absolute;
+}
+
+.img1 {
+    top: 5px;
+    left: 30px;
+}
+
+.img2 {
+    top: 5px;
+    right: 30px;
+}
+
+.img3 {
+    top: 100px;
+    left: 140px;
+}
+
+.img4 {
+    bottom: 5px;
+    left: 25px;
+}
+
+.img5 {
+    bottom: 5px;
+    right: 25px;
+}
