@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: blue;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+button {
+    background-color: #1685e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Home Section */
+.home {
+    background-image: url("https://picsum.photos/id/1043/1200/500");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.home h1 {
+    font-size: 35px;
+}
+
+.search {
+    background-color: white;
+    padding: 15px;
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    color: gray;
+}
+
+/* About */
+.about {
+    background-color: #263d4a;
+    color: white;
+    padding: 50px;
+}
+
+/* Property Details */
+.property {
+    background-color: white;
+    margin: 30px;
+    padding: 25px;
+}
+
+.property img {
+    width: 70%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
