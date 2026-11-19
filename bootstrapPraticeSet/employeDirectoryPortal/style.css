@@ -1,0 +1,36 @@
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.employee-card {
+    border: none;
+    border-radius: 12px;
+    padding-top: 20px;
+}
+
+.employee-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.employee-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.card-body p {
+    margin-bottom: 8px;
+}
+
+table {
+    background-color: white;
+}
+
+footer {
+    margin-top: 30px;
+}
