@@ -1,0 +1,27 @@
+body {
+    background-color: #eaf3f5;
+    font-family: Arial;
+}
+
+.profile {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #176b75;
+}
+
+a {
+    color: blue;
+}

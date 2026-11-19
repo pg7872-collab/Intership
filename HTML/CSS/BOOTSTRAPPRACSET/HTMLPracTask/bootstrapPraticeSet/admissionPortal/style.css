@@ -1,0 +1,29 @@
+
+body {
+    background-color: #f2f5fa;
+    font-family: Arial, sans-serif;
+}
+
+.admission-card {
+    max-width: 650px;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 20px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+.btn {
+    padding: 9px 25px;
+}

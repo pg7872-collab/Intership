@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    display: flex;
+    background: #f4f4f4;
+}
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #222;
+    padding: 25px;
+    color: white;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 5px;
+}
+
+.sidebar a:hover {
+    background: #444;
+    color: orange;
+}
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+.main h1 {
+    margin-bottom: 25px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    min-width: 150px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.box h3 {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.box h2 {
+    color: #6258e8;
+}
+
+.activity {
+    background: white;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #6258e8;
+    color: white;
+}
+
+@media(max-width: 650px) {
+    .sidebar {
+        width: 130px;
+        padding: 12px;
+    }
+
+    .main {
+        padding: 15px;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+}

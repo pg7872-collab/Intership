@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    color: orange;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero {
+    height: 400px;
+    background: linear-gradient(#0008, #0008),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    margin: 15px;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.food {
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 3px 10px #ccc;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.food:hover {
+    transform: scale(1.05);
+}
+
+.food img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.food h3 {
+    margin: 10px;
+}
+
+.offer {
+    background: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+}

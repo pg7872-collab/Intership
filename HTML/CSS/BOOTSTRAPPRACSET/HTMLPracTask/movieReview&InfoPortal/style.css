@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f0ed;
+}
+
+header {
+    background-color: #343039;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.movies {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.movie {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.movie img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+h2 {
+    color: #8c3f36;
+}
+
+a {
+    color: #8c3f36;
+}
+
+@media (max-width: 600px) {
+    .movie {
+        display: block;
+    }
+
+    .movie img {
+        width: 100%;
+        height: auto;
+    }
+}

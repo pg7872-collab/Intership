@@ -1,0 +1,39 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: #ffe0d0;
+    padding: 55px 15px;
+}
+
+.hero h1 {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.food-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+}
+
+.food-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.food-card .card-body {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}
